@@ -1,0 +1,98 @@
+/* portfolio.css */
+#wrap { width: 100%; height: auto; min-width: 700px; margin: auto; font-family: 'Open Sans',  'Noto Sans KR', sans-serif; }
+
+#wrap > a { display: block; position: fixed; right: 50px; bottom: 100px; z-index: 10; color: #f6b57c; font-size: 3rem; }
+
+/* headBox==================================================== */
+#headBox { position: absolute; bottom: 0; left: 0; width: 100%; height: 80px; background-color: #fff; }
+
+h1 { position: absolute; left: 20px; width: 30%; height: auto; line-height: 80px; }
+
+h1 > a { display: block; color: #f6b57c; }
+
+.gnb { width: 580px; height: 100%; margin: auto; }
+
+.gnb > li { float: left; width: 100px; height: 100%; margin-right: 60px; font-size: 1.25rem; line-height: 80px; text-align: center; }
+
+.gnb > li:last-child { margin-right: 0; }
+
+.gnb > li > a { display: block; position: relative; width: 100%; height: 100%; }
+
+.gnb > li > a:hover, .gnb > li > a:focus { color: #f6b57c; }
+
+.gnb > li > a:hover:after, .gnb > li > a:hover::after, .gnb > li > a:focus:after, .gnb > li > a:focus::after { content: ""; display: block; position: absolute; bottom: 12px; width: 100%; height: auto; border-bottom: 2px solid #f6b57c; }
+
+/* contentBox=================================================== */
+#contentBox { width: 100%; height: auto; }
+
+/* viewBox=================================================== */
+#viewBox { width: 100%; height: 100%; background-image: url("../img/view_img.svg"); background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; }
+
+/* resume_area======================================================= */
+#resume_area { width: 100%; height: 100%; background-image: url("../img/resume.svg"); background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; }
+
+/* portfolio================================================================ */
+#portfolio { width: 100%; height: auto; padding: 90px; box-sizing: border-box; background-color: #fff; }
+
+#portfolio > h2 { width: 8%; height: 40px; margin: auto; color: #000; font-weight: bold; text-align: center; border-bottom: 2px solid #f6b57c; font-family: 'Open Sans', sans-serif; }
+
+#portfolio > .port_box { width: 1260px; height: auto; margin: auto; margin-top: 60px; }
+
+#portfolio > .port_box > .port_area_01 { width: 100%; height: 322px; }
+
+#portfolio > .port_box > .port_area_01 > li { float: left; width: 530px; height: 100%; }
+
+#portfolio > .port_box > .port_area_01 > li:last-child { float: left; width: 730px; height: 100%; background-image: url("../img/army_iMac.jpg"); background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; }
+
+#portfolio > .port_box > .port_area_01 > li > h3 { width: auto; height: auto; margin-top: 40px; font-family: 'Noto Sans KR', sans-serif; }
+
+#portfolio > .port_box > .port_area_01 > li > p { width: auto; height: auto; margin-top: 40px; font-family: 'Noto Sans KR', sans-serif; }
+
+#portfolio > .port_box > .port_area_01 > li > a { display: block; width: 300px; height: 50px; margin-top: 40px; line-height: 50px; text-align: center; border: 2px solid #f6b57c; color: #333; font-family: 'Noto Sans KR', sans-serif; }
+
+#portfolio > .port_box > .port_area_01 > li > a:hover, #portfolio > .port_box > .port_area_01 > li > a:focus { background-color: #f6b57c; color: #333; font-weight: 700; }
+
+#portfolio > .port_box > .port_area_02 { width: 100%; height: 322px; margin-top: 50px; }
+
+#portfolio > .port_box > .port_area_02 > li { float: left; width: 630px; height: 100%; }
+
+#portfolio > .port_box > .port_area_02 > li:last-child { float: left; width: 630px; height: 100%; background-image: url("../img/view_img.svg"); background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; }
+
+#portfolio > .port_box > .port_area_02 > li > h3 { width: auto; height: auto; margin-top: 40px; font-family: 'Noto Sans KR', sans-serif; }
+
+#portfolio > .port_box > .port_area_02 > li > p { width: auto; height: auto; margin-top: 40px; font-family: 'Noto Sans KR', sans-serif; }
+
+#portfolio > .port_box > .port_area_02 > li > a { display: block; width: 300px; height: 50px; margin-top: 40px; line-height: 50px; text-align: center; border: 2px solid #f6b57c; color: #333; font-family: 'Noto Sans KR', sans-serif; }
+
+#portfolio > .port_box > .port_area_02 > li > a:hover, #portfolio > .port_box > .port_area_02 > li > a:focus { background-color: #f6b57c; color: #333; font-weight: 700; }
+
+#contact { width: 100%; height: 689px; padding: 90px 0; background-color: #f9f8f8; }
+
+#contact > h2 { width: 6%; height: auto; margin: auto; text-align: center; color: #333; font-weight: bold; border-bottom: 2px solid #f6b57c; font-family: 'Open Sans', sans-serif; }
+
+#contact > ul { width: 800px; height: 400px; margin: auto; padding-top: 200px; }
+
+#contact > ul > li { float: left; width: 200px; height: auto; margin-left: 100px; }
+
+#contact > ul > li:first-child { margin-left: 0; }
+
+#contact > ul > li > div { width: 100%; height: 200px; }
+
+#contact > ul > li:nth-child(1) > div { background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url("../img/icon_phone_01.svg"); }
+
+#contact > ul > li:nth-child(1) > div:hover, #contact > ul > li:nth-child(1) > div:focus { background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url("../img/icon_phone_02.svg"); }
+
+#contact > ul > li:nth-child(2) > div { background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url("../img/icon_email_01.svg"); }
+
+#contact > ul > li:nth-child(2) > div:hover, #contact > ul > li:nth-child(2) > div:focus { background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url("../img/icon_email_02.svg"); }
+
+#contact > ul > li:nth-child(3) > div { background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url("../img/icon_adress_01.svg"); }
+
+#contact > ul > li:nth-child(3) > div:hover, #contact > ul > li:nth-child(3) > div:focus { background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url("../img/icon_adress_02.svg"); }
+
+#contact > ul > li > p { width: 200px; height: auto; margin: auto; text-align: center; color: #fff; font-size: 1rem; line-height: 32px; font-family: 'Open Sans', sans-serif; background-color: #f6b57c; }
+
+/* footBox====================================================================== */
+#footBox { width: 100%; height: auto; background-color: #fff; }
+
+#footBox > p { width: 100%; height: 100%; line-height: 25px; text-align: center; color: #333; font-size: 0.9rem; font-weight: 400; font-family: 'Open Sans', sans-serif; }
