@@ -17,15 +17,26 @@
   });
 
   // scroll======================================================
+  const gnb = $('.gnb');
+  const gnbLink = gnb.find('a');
   const myScroll = $('.scroll');
   const myScrollArr=[];
   for(let j=0; j < myScroll.length; j++){
-    myScrollArr[j]=myScroll.eq(j).offset().top;
-    
+   myScrollArr[j]=myScroll.eq(j).offset().top;
   }
   let k = 0;
   let tf = true;
   $('html,body').animate({scrollTop:myScrollArr[k]});
+
+  gnbLink.on('click',function(){
+    if(tf){tf=false;
+    k = $(this).parents('li').index();
+    $('html,body').animate({scrollTop:myScrollArr[k]},600,function(){
+      tf=true;
+    });
+    }
+  });
+
   $(document).on('mousewheel DOMMouseScroll', function(e){
     if(tf){ tf=false;
     let evt = e.originalEvent.wheelDelta;
